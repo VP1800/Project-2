@@ -1,0 +1,1 @@
+<h1>Hello PHP This is about page <a href="hello/bye">Go to home</a></h1>
