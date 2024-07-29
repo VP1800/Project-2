@@ -5,13 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+class Architect extends Model
 {
     use HasFactory;
-    protected $table='category';
+    protected $table='architects';
     protected $primarykey='id';
-    public function Architect()
-    {
-        return $this->hasMany(Architect::class);
-    }
 }
